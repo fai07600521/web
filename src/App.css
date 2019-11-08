@@ -1,12 +1,100 @@
-
-.header-color{
-  background: #43cea2;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #185a9d, #43cea2);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #185a9d, #43cea2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+.header-color {
+  background: #43cea2; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #185a9d,
+    #43cea2
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #185a9d,
+    #43cea2
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
-.landing-grid{
-  background: #43cea2;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #185a9d, #43cea2);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #185a9d, #43cea2);
+.landing-grid {
+  background: #43cea2; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #185a9d,
+    #43cea2
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #185a9d, #43cea2);
+}
+.services {
+  background: #f2f3f4;
+  text-align: center;
+  padding: 40px;
+}
+.services2 {
+  background: #424242;
+  text-align: center;
+  padding: 40px;
+}
+.services-center {
+  width: 90vw;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(255px, 1fr));
+  grid-row-gap: 2rem;
+  grid-column-gap: 50px;
+}
+.service span {
+  display: inline-block;
+  color: var(--primaryColor);
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+.service h6 {
+  letter-spacing: var(--mainSpacing);
+}
+.service p {
+  width: 80%;
+  margin: 0 auto;
+}
+.head-color {
+  color: #fff9f9;
+  font-weight: 600;
+}
+.space-head {
+  box-sizing: border-box;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 100%;
+  margin-bottom: 50px;
+}
+.box-size {
+  width: 800px;
+  height: 50px;
+  box-sizing: border-box;
+}
+.box {
+  padding-right: 130px !important;
+  padding-bottom: 75px !important;
+  padding-left: 130px !important;
+  background-color: #ff5e14 !important;
+}
+.container2 {
+  padding-top: 80px;
+}
+.footer-pic{
+  width: 50px;
+  height: 50px;
+}
+.flex-container{
+  display: flex;
+}
+.box-border{
+  width: 300px;
+  height: 300px;
+  color: 	#808080	;
+  padding: 40px !important;
+}
+.center-p{
+  text-align: center;
+}
+.ig_button {
+  background-color: rgb(57, 66, 75);
+    border-color: rgb(40, 43, 47);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
 }

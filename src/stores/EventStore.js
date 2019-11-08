@@ -1,6 +1,6 @@
 import BaseStore from './BaseStore';
 import axios from 'axios';
-import { api } from '/Users/hataiphatsrijitjam/Documents/T/gurufarm/src/config.json';
+import { api } from '../config/config';
 
 
 export class EventStore extends BaseStore {
@@ -15,9 +15,8 @@ export class EventStore extends BaseStore {
     async initData(){
         try {
             console.log("getttttt in ok")
-            const response = await axios.get(`${api.url}/guru`);
-            console.log(`${api.url}`)
-            console.log(response);
+            const response = await axios.get(`http://localhost:3007/`);
+            console.log("response",response);
             if(response.status === 200){
                this.EventList = response.data; 
             }

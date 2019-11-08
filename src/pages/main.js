@@ -6,7 +6,7 @@ import Guru from './guru';
 import News from './news';
 import Shop from './shop';
 import Events from './events';
-
+import SignUp from './components/SignUp'
 
 const Main = () => (
   <Switch>
@@ -15,6 +15,7 @@ const Main = () => (
     <Route path="/News" component={News} />
     <Route path="/Shop" component={Shop} />
     <Route path="/Events" component={Events} />
+    <Route path="/SignUp" component={SignUp} />
   </Switch>
 )
 
