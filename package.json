@@ -13,7 +13,7 @@
     "mdbreact": "^4.22.0",
     "mobx": "^5.14.2",
     "mobx-react": "^6.1.4",
-    "node-sass": "^4.13.0",
+    "node-sass": "^7.0.0",
     "nuka-carousel": "^4.5.12",
     "rc-queue-anim": "^1.8.2",
     "rc-scroll-anim": "^2.6.2",
